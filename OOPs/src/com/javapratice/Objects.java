@@ -1,37 +1,13 @@
 package com.javapratice;
 
-//import java.util.Scanner;
-
 public class Objects
 {
 
-	//Scanner scan = new Scanner(System.in);
-
-	String myname ;
-	int mymarks ;
-	
-	//creating Constructor
-     Objects(String name, int marks){
-		 myname = name;
-		 mymarks = marks;
-		 
-	 }
-
-	public void get_details()
+	public static void main(String args[])
 	{
-		
-	
-	/*	System.out.println("Enter the name:");
-		name = scan.nextLine();
+		House house1 = new House();
+		House house2 = new House("Kamalika");
+		House house3 = new House("Deepthi", 22);
 
-		System.out.println("Enter the marks:");
-		marks = scan.nextInt();*/
-
-	}
-
-	public void show_details()
-	{
-		System.out.println("Name of the student" + myname);
-		System.out.println("Marks of the student" + mymarks);
 	}
 }

@@ -2,13 +2,12 @@ package com.javapratice;
 
 public class Students
 {
-
 	public static void main(String[] args)
 	{
-		Objects obj = new Objects("prasanna", 80);
+		House h1 = new House();
+		h1.setName("prasanna");
+		h1.setAge(26); 
+		System.out.println(h1);
 
-		obj.get_details();
-
-		obj.show_details();
 	}
 }
